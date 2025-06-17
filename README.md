@@ -19,7 +19,7 @@
 └── README.md
 ```
 
-## 📦 Требования
+## ❗ Требования
 
 - Python 3.12
 - Apache Airflow **v3.x**
