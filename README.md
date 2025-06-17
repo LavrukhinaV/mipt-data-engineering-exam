@@ -115,6 +115,8 @@ airflow standalone
 
 Войти можно с учётными данными, полученными на шаге 3.
 
+![Cкриншот работающего дага](https://github.com/LavrukhinaV/files/raw/main/data_engineering_exam_dag.png)
+
 ---
 
 ### Запуск DAG-а вручную
@@ -133,8 +135,6 @@ airflow dags list
 ```bash
 airflow tasks list ml_pipeline_breast_cancer
 ```
-
-![Cкриншот работающего дага](https://github.com/LavrukhinaV/files/raw/main/data_engineering_exam_dag.png)
 
 ## Этап 4. Интеграция с хранилищем
 

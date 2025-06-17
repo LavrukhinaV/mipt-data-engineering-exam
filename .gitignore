@@ -19,6 +19,7 @@ logs/
 dags/__pycache__/
 airflow.cfg
 unittests.cfg
+airflow_home/
 
 # VS Code / MacOS
 .vscode/
