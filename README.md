@@ -15,6 +15,7 @@
 │   ├── train_model.py
 │   └── evaluate_model.py
 ├── logs/                     # Логи Airflow
+├── images/
 ├── requirements.txt
 └── README.md
 ```
@@ -115,7 +116,7 @@ airflow standalone
 
 Войти можно с учётными данными, полученными на шаге 3.
 
-![Cкриншот работающего дага](https://github.com/LavrukhinaV/files/raw/main/data_engineering_exam_dag.png)
+![Cкриншот работающего дага](/images/screenshot.png)
 
 ---
 
