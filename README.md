@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Настройка переменных окружения
-Создайте `.env` файл или задайте вручную переменные:
+Создайте `.env` файл:
 ```bash
 export RAW_DATA_PATH=data/breast_cancer.csv
 export PROCESSED_DATA_PATH=results/processed.csv
