@@ -107,12 +107,7 @@ export AIRFLOW__LOGGING__BASE_LOG_FOLDER=$(pwd)/logs
 export $(grep -v '^#' .env | xargs)
 ```
 
-### 3. Инициализация базы данных Airflow
-```bash
-airflow db migrate
-```
-
-### 4. Запуск Airflow
+### 3. Запуск Airflow
 ```bash
 airflow standalone
 ```
@@ -120,7 +115,7 @@ airflow standalone
 После запуска веб-интерфейс будет доступен по адресу:
 [http://localhost:8080](http://localhost:8080)
 
-Войти можно с учётными данными, полученными на шаге 4.
+Войти можно с учётными данными, полученными на шаге 3.
 
 ![Cкриншот работающего дага](/images/screenshot.png)
 
